@@ -1,0 +1,15 @@
+a=input()
+b=input()
+c=input()
+d=input()
+e=input()
+if (a<b and a<c and a<d and a<e):
+    print('a is smaller')
+elif(b<a and b<c and b<d and b<e):
+    print('b is smaller')
+elif(c<a and c<b and c<d and C<e):
+    print('c is smaller')
+elif(d<a and d<b and d<c and d<e):
+    print('d is smaller')
+else:
+    print('e is smaller')
